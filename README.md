@@ -1,2 +1,2 @@
-# ticpractica02
+# SEGUNDO ejercicio
  
