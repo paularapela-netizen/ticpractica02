@@ -79,4 +79,33 @@
         padding: 0 2px;
     }
 
+
+
+    
+    figure {
+        margin: 20px 0;
+    }
+    
+    figure img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 5px;
+    }
+    
+    figure figcaption {
+        font-size: 13px;
+        color: #777;
+        margin-top: 8px;
+    }
+    
+    figure figcaption a {
+        color: #777;
+        text-decoration: none;
+    }
+    
+    figure figcaption a:hover {
+        text-decoration: underline;
+        color: #333;
+    }
+
 }
