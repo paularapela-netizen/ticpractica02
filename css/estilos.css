@@ -1,0 +1,82 @@
+
+/* SALIDAS PROFESIONALES - LISTADO EDITORIAL */
+
+.salida-lista {
+    margin-top: 20px;
+}
+
+.salida-item {
+    display: flex;
+    gap: 25px;
+    padding: 25px 10px;
+    border-top: 1px solid #e5e5e5;
+}
+
+.salida-item:last-child {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.salida-numero {
+    font-size: 32px;
+    font-weight: 300;
+    color: #aaa;
+    min-width: 45px;
+}
+
+.salida-contenido {
+    flex: 1;
+}
+
+.salida-contenido h5 {
+    font-size: 17px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.salida-contenido p {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.salida-etiqueta {
+    display: block;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #999;
+    margin-bottom: 8px;
+}
+
+.salida-contenido .salida-pasos {
+    font-size: 13px;
+    color: #555;
+    margin-bottom: 0;
+}
+
+.salida-pasos span {
+    color: #aaa;
+    padding: 0 4px;
+}
+
+/* ADAPTACIÓN A MÓVILES */
+
+@media (max-width: 576px) {
+
+    .salida-item {
+        gap: 12px;
+        padding: 20px 0;
+    }
+
+    .salida-numero {
+        font-size: 25px;
+        min-width: 32px;
+    }
+
+    .salida-pasos span {
+        padding: 0 2px;
+    }
+
+}
