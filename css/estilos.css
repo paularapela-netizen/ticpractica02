@@ -61,6 +61,7 @@
     padding: 0 4px;
 }
 
+
 /* ADAPTACIÓN A MÓVILES */
 
 @media (max-width: 576px) {
@@ -78,38 +79,39 @@
     .salida-pasos span {
         padding: 0 2px;
     }
+}
 
 
+/* IMÁGENES Y PIES DE FOTO */
 
-    
-    figure {
-        margin: 20px 0;
-    }
-    
-    figure img {
-        max-width: 100%;
-        height: auto;
-        border-radius: 5px;
-    }
-    
-    figure figcaption {
-        font-size: 13px;
-        color: #777;
-        margin-top: 8px;
-    }
-    
-    figure figcaption a {
-        color: #777;
-        text-decoration: none;
-    }
-    
-    figure figcaption a:hover {
-        text-decoration: underline;
-        color: #333;
-    }
+figure {
+    margin: 20px 0;
+}
+
+figure img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+figure figcaption {
+    font-size: 13px;
+    color: #777;
+    margin-top: 8px;
+}
+
+figure figcaption a {
+    color: #777;
+    text-decoration: none;
+}
+
+figure figcaption a:hover {
+    text-decoration: underline;
+    color: #333;
+}
 
 
-    /* TÍTULOS DE LOS GRADOS */
+/* TÍTULOS DE LOS GRADOS */
 
 .titulo-grado {
     padding: 15px 20px;
@@ -118,22 +120,30 @@
     font-weight: 600;
 }
 
-/* Arquitectura Técnica */
+/* ARQUITECTURA TÉCNICA */
 .titulo-arquitectura {
-    background-color: #e8f0f7;
-    color: #34536d;
+    background-color: #e8f0f7 !important;
+    color: #376386 !important;
 }
 
-/* Física */
+/* FÍSICA */
 .titulo-fisica {
-    background-color: #eaf2ec;
-    color: #42634a;
+    background-color: #eaf2ec !important;
+    color: #3a5c42 !important;
 }
 
-/* Diseño Industrial */
+/* DISEÑO INDUSTRIAL */
 .titulo-diseno {
-    background-color: #f3eee5;
-    color: #776044;
+    background-color: #f3eee5 !important;
+    color: #644f35 !important;
 }
 
+
+.titulo-principal {
+    background-color: #f5d2f2;
+    color: #ac499e;
+    padding: 20px;
+    border-radius: 5px;
+    font-size: 30px;
+    font-weight: 700;
 }
